@@ -1,4 +1,6 @@
-﻿namespace AD
+﻿using System.Collections.Generic;
+
+namespace AD
 {
     public partial class MyArrayList : IMyArrayList
     {
@@ -7,8 +9,21 @@
 
         public MyArrayList(int capacity)
         {
-            // Write implementation here
-            throw new System.NotImplementedException();
+            data = new int[capacity];
+            size = capacity; //Dit moet nog aangepast worden.
+            if (size > capacity)
+            {
+                throw new System.NotImplementedException();
+            }
+
+            if (data.Length == 0)
+            {
+                return null;
+            }
+            else
+            {
+                return "alle cijfers";
+            }
         }
 
         public void Add(int n)

@@ -69,15 +69,23 @@ namespace AD
 
         public override string ToString()
         {
-            string 
+            string everythingInTheList = "[";
+
             if (size >= data.Length)
             {
                 return null;
             }
-            for(int i = 0; i < size; i++)
+            for(int i = 0; i <= size; i++)
             {
-
+                everythingInTheList += data[i];
+                if(i != size)
+                {
+                    everythingInTheList += ", ";
+                }
             }
+
+            everythingInTheList += "]";
+
             return "";
         }
     }

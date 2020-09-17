@@ -9,3 +9,16 @@ D:\code\git\ad-huiswerk-practicum\Les 2 - Basis datastructuren\Huiswerk2\bin\Deb
 D:\code\git\ad-huiswerk-practicum\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.pdb
 D:\code\git\ad-huiswerk-practicum\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.dll
 D:\code\git\ad-huiswerk-practicum\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\bin\Debug\netcoreapp3.1\Huiswerk2.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.csproj.CoreCompileInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.genruntimeconfig.cache

@@ -59,34 +59,43 @@ namespace AD
         public void Clear()
         {
             data = new int[data.Length];
+            size = 0;
         }
 
         public int CountOccurences(int n)
         {
-            // Write implementation here
-            throw new System.NotImplementedException();
+            int occurences = 0;
+            for(int i = 0; i < size; i++)
+            {
+                if(data[i] == n)
+                {
+                    occurences++;
+                }
+            }
+            return occurences;
         }
 
         public override string ToString()
         {
             string everythingInTheList = "[";
 
-            if (size >= data.Length)
+            if (size == 0)
             {
-                return null;
+                return "NIL";
             }
-            for(int i = 0; i <= size; i++)
+
+            for(int i = 0; i < size; i++)
             {
                 everythingInTheList += data[i];
-                if(i != size)
+
+                if (i != size - 1)
                 {
-                    everythingInTheList += ", ";
+                    everythingInTheList += ",";
                 }
             }
-
             everythingInTheList += "]";
 
-            return "";
+            return everythingInTheList;
         }
     }
 }

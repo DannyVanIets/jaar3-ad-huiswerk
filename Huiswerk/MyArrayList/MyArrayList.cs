@@ -66,5 +66,19 @@ namespace AD
             // Write implementation here
             throw new System.NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            string 
+            if (size >= data.Length)
+            {
+                return null;
+            }
+            for(int i = 0; i < size; i++)
+            {
+
+            }
+            return "";
+        }
     }
 }

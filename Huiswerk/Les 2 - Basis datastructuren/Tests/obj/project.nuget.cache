@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sdQrrmCvwqQFdG50A8Fr78840biE+5usS77nMqp10zI16fKIv7wXCFYJkbemY14ubvj+qvztpezxPYCGHH2b2Q==",
+  "dgSpecHash": "cIfVrBN58icQVmFONUghabJgJWbGunSw3JxPRA/ykVZSZpksV7/DU6kshr04SGJ+4+jfFJihpAQwT1UaSLKctg==",
   "success": true,
-  "projectFilePath": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj": {}
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
+        "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
         "projectName": "Huiswerk2",
-        "projectPath": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
+        "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
         "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Huiswerk2\\obj\\",
+        "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Huiswerk2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -55,22 +52,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
+        "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
+        "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Tests\\obj\\",
+        "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -85,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj": {
-                "projectPath": "D:\\code\\git\\ad-huiswerk-practicum\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj"
+              "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj": {
+                "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj"
               }
             }
           }
@@ -128,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

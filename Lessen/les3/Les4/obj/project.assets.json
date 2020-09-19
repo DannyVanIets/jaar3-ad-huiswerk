@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Lessen\\les3\\les3\\les3.csproj",
-      "projectName": "les3",
-      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Lessen\\les3\\les3\\les3.csproj",
+      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Lessen\\les3\\Les4\\Les4.csproj",
+      "projectName": "Les4",
+      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Lessen\\les3\\Les4\\Les4.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Lessen\\les3\\les3\\obj\\",
+      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Lessen\\les3\\Les4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",

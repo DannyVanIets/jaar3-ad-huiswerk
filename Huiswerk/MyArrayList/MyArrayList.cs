@@ -77,14 +77,14 @@ namespace AD
 
         public override string ToString()
         {
-            string everythingInTheList = "[";
-
             if (size == 0)
             {
                 return "NIL";
             }
 
-            for(int i = 0; i < size; i++)
+            string everythingInTheList = "[";
+
+            for (int i = 0; i < size; i++)
             {
                 everythingInTheList += data[i];
 

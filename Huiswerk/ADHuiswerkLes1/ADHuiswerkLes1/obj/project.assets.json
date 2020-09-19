@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\git\\ad-huiswerk\\Huiswerk\\ADHuiswerkLes1\\ADHuiswerkLes1\\ADHuiswerkLes1.csproj",
+      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\ADHuiswerkLes1\\ADHuiswerkLes1\\ADHuiswerkLes1.csproj",
       "projectName": "ADHuiswerkLes1",
-      "projectPath": "D:\\code\\git\\ad-huiswerk\\Huiswerk\\ADHuiswerkLes1\\ADHuiswerkLes1\\ADHuiswerkLes1.csproj",
+      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\ADHuiswerkLes1\\ADHuiswerkLes1\\ADHuiswerkLes1.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\git\\ad-huiswerk\\Huiswerk\\ADHuiswerkLes1\\ADHuiswerkLes1\\obj\\",
+      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\ADHuiswerkLes1\\ADHuiswerkLes1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",

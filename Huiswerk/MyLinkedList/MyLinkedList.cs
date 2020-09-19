@@ -7,13 +7,17 @@
 
         public MyLinkedList()
         {
-            head = new MyLinkedListNode<T>(); //Deze bespreken tijdens de les op locatie.
+            head = null; //Deze bespreken tijdens de les op locatie.
             // gaat over de test MyLinkedList_7_Internal_1_Constructor().
         }
 
         public void AddFirst(T data)
         {
-            if (size > 0)
+            if (size == 0)
+            {
+                head = new MyLinkedListNode<T>();
+            }
+            else if (size > 0)
             {
                 MyLinkedListNode<T> old = new MyLinkedListNode<T>
                 {
@@ -99,7 +103,7 @@
 
         public override string ToString()
         {
-            if(size == 0)
+            if (size == 0)
             {
                 return "NIL";
             }

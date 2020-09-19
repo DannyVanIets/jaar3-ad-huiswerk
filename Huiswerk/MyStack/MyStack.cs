@@ -8,7 +8,7 @@ namespace AD
 
         public bool IsEmpty()
         {
-            if(stack.Size() == 0)
+            if (stack.Size() == 0)
             {
                 return true;
             }
@@ -24,7 +24,7 @@ namespace AD
 
             T pop = default;
 
-            if(stack.Size() > 0)
+            if (stack.Size() > 0)
             {
                 pop = stack.GetFirst();
                 stack.RemoveFirst();
@@ -40,7 +40,7 @@ namespace AD
 
         public T Top()
         {
-            if(stack.Size() == 0)
+            if (stack.Size() == 0)
             {
                 throw new MyStackEmptyException();
             }

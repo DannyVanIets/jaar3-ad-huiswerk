@@ -4,30 +4,45 @@ namespace AD
 {
     public partial class MyQueue<T> : IMyQueue<T>
     {
+        private List<T> queue = new List<T>();
+
         public bool IsEmpty()
         {
-            throw new System.NotImplementedException();
+            if (queue.Count == 0)
+            {
+                return true;
+            }
+            return false;
         }
 
         public void Enqueue(T data)
         {
-            throw new System.NotImplementedException();
+            queue.Add(data);
         }
 
         public T GetFront()
         {
-            throw new System.NotImplementedException();
+            if(queue.Count == 0)
+            {
+                throw new MyQueueEmptyException();
+            }
+            return queue[0];
         }
 
         public T Dequeue()
         {
-            throw new System.NotImplementedException();
+            if(queue.Count == 0)
+            {
+                throw new MyQueueEmptyException();
+            }
+            var firstQueueElement = queue[0];
+            queue.RemoveAt(0);
+            return firstQueueElement;
         }
 
         public void Clear()
         {
-            throw new System.NotImplementedException();
+            queue.Clear();
         }
-
     }
 }

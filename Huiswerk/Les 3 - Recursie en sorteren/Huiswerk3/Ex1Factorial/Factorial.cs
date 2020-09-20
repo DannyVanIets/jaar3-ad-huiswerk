@@ -4,12 +4,24 @@
     {
         public static long FacRecursive(int n)
         {
-            throw new System.NotImplementedException();
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return FacRecursive(n - 1) * n;
+            }
         }
 
         public static long FacIterative(int n)
         {
-            throw new System.NotImplementedException();
+            int whatNumberWeAreAt = n;
+            for(int i = 1; i < whatNumberWeAreAt; i++)
+            {
+                n *= i;
+            }
+            return n;
         }
 
         public static void Run()

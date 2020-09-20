@@ -7,7 +7,7 @@
             System.Console.WriteLine("\n=====   Opgave 1 : Faculteit   =====\n");
             Opgave1.Run();
 
-            System.Console.WriteLine("\n=====   Opgave 2 : Fibonacci   =====\n");
+            /*System.Console.WriteLine("\n=====   Opgave 2 : Fibonacci   =====\n");
             Opgave2.Run();
 
             System.Console.WriteLine("\n=====   Opgave 3 : OmEnOm   =====\n");
@@ -32,7 +32,7 @@
                 isort.RunWithTimer(num);
                 msort.RunWithTimer(num);
                 ssort.RunWithTimer(num);
-            }
+            }*/
         }
     }
 }

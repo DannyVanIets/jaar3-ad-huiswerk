@@ -7,7 +7,14 @@
         private static long FibonacciRecursiveInternal(int n)
         {
             calls++;
-            throw new System.NotImplementedException();
+            if (n == 0 || n == 1)
+            {
+                return n;
+            }
+            else
+            {
+                return FibonacciRecursiveInternal(n - 1) + FibonacciRecursiveInternal(n - 2);
+            }
         }
 
         public static long FibonacciRecursive(int n)
@@ -18,7 +25,17 @@
 
         private static long FibonacciIterativeInternal(int n)
         {
-            throw new System.NotImplementedException();
+            int previousNumber = 0;
+            int currentNumber = 1;
+            int result = 1;
+
+            for(int i = 1; i < n; i++, calls++)
+            {
+                result = previousNumber + currentNumber;
+                previousNumber = currentNumber;
+                currentNumber = result;
+            }
+            return result;
         }
 
         public static long FibonacciIterative(int n)

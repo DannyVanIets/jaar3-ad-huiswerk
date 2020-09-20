@@ -6,12 +6,36 @@ namespace AD
     {
         public static string ForwardString(List<int> list, int from)
         {
-            throw new System.NotImplementedException();
+            if(list.Count == 0)
+            {
+                return "";
+            }
+            else if(from == 0)
+            {
+                return $"{list[0]} " + ForwardString(list.GetRange(1, list.Count - 1), from);
+            }
+            else
+            {
+                list.RemoveAt(0);
+                return ForwardString(list, from - 1);
+            }
         }
         
         public static string BackwardString(List<int> list, int to)
         {
-            throw new System.NotImplementedException();
+            if (list.Count == 0)
+            {
+                return "";
+            }
+            else if (to == 0)
+            {
+                return $"{list[0]} " + BackwardString(list.GetRange(1, list.Count - 1), to);
+            }
+            else
+            {
+                list.RemoveAt(list.Count - to);
+                return BackwardString(list, to - 1);
+            }
         }
 
         public static void Run()

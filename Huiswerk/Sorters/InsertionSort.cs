@@ -7,7 +7,16 @@ namespace AD
     {
         public override void Sort(List<int> list)
         {
-            throw new System.NotImplementedException();
+           for(int i = 0; i < list.Count - 1; i++)
+            {
+                for(int j = 0; j < list.Count - 1; j++)
+                {
+                    if(list[i] < list[j])
+                    {
+
+                    }
+                }
+            }
         }
     }
 }

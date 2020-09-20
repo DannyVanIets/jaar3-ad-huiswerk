@@ -14,9 +14,9 @@
             }
         }
 
-        public static long FacIterative(int n)
+        public static long FacIterative(long n)
         {
-            int whatNumberWeAreAt = n;
+            long whatNumberWeAreAt = n;
             for(int i = 1; i < whatNumberWeAreAt; i++)
             {
                 n *= i;

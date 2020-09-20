@@ -6,7 +6,18 @@ namespace AD
     {
         public static int OmEnOm(int n)
         {
-            throw new System.NotImplementedException();
+            if (n < 0)
+            {
+                throw new OmEnOmNegativeValueException();
+            }
+            else if (n == 1 || n == 0)
+            {
+                return n;
+            }
+            else
+            {
+                return OmEnOm(n - 2) + n;
+            }
         }
         public static void Run()
         {
@@ -14,7 +25,7 @@ namespace AD
 
             for (int n = 0; n < MAX; n++)
             {
-                System.Console.WriteLine("          OmEnOm({0,2}) = {1,3}", n, OmEnOm(n));
+                Console.WriteLine("          OmEnOm({0,2}) = {1,3}", n, OmEnOm(n));
             }
         }
     }

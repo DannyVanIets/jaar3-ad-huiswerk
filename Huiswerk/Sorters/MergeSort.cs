@@ -9,9 +9,11 @@ namespace AD
         {
             // Maak eerst two "temporary arrays".
             // In 1tje zit alles van links + center.
-            // In de 2de zit alles vanr rechts.
+            // In de 2de zit alles van rechts.
             // Dan ga je met een forloop door beide heen.
             // Uiteindelijk voeg je deze twee arrays samen.
+
+
         }
     }
 }

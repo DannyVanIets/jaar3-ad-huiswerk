@@ -17,10 +17,10 @@
             //Opgave4.Run();
 
             System.Console.WriteLine("\n=====   Opgave 6 : ForwardString   =====\n");
-            Opgave6.Run();
+            //Opgave6.Run();
 
             System.Console.WriteLine("\n=====   Opgave 7 : Sorting   =====\n");
-            /*Sorter isort = new InsertionSort();
+            Sorter isort = new InsertionSort();
             Sorter msort = new MergeSort();
             Sorter ssort = new ShellSort();
             isort.Run();
@@ -32,7 +32,7 @@
                 isort.RunWithTimer(num);
                 msort.RunWithTimer(num);
                 ssort.RunWithTimer(num);
-            }*/
+            }
         }
     }
 }

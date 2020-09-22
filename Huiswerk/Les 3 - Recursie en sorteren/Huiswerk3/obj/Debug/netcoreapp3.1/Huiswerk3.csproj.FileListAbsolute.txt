@@ -5,9 +5,7 @@ D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\bi
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\bin\Debug\netcoreapp3.1\Huiswerk3.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\bin\Debug\netcoreapp3.1\Huiswerk3.pdb
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.csprojAssemblyReference.cache
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.csproj.CoreCompileInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.AssemblyInfoInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.AssemblyInfo.cs
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.pdb
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Huiswerk3\obj\Debug\netcoreapp3.1\Huiswerk3.genruntimeconfig.cache

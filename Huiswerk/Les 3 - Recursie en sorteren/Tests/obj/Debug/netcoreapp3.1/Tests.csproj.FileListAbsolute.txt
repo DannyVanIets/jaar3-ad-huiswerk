@@ -90,10 +90,8 @@ D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\bin\De
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\bin\Debug\netcoreapp3.1\Huiswerk3.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\bin\Debug\netcoreapp3.1\Huiswerk3.pdb
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.csprojAssemblyReference.cache
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CopyComplete
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\Les 3 - Recursie en sorteren\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache

@@ -11,7 +11,8 @@ namespace AD
     {
         [Test, Combinatorial]
         public void Sort(
-                    [Values("InsertionSort", "MergeSort", "ShellSort", "QuickSort")] string sorterName,
+                    //[Values("InsertionSort", "MergeSort", "ShellSort", "QuickSort")] string sorterName,
+                    [Values("QuickSort")] string sorterName,
                     [Values(0, 10, 300)] int n)
         {
             List<int> list = new List<int>();

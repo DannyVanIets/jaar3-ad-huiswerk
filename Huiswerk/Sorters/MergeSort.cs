@@ -18,7 +18,7 @@ namespace AD
             int leftCount = 0;
             int rightCount = 0;
 
-            for (int i = 0; i <= amount; i++)
+            /*for (int i = 0; i <= amount; i++)
             {
                 if (tempArrayLeft[leftCount] < tempArrayRight[rightCount])
                 {
@@ -30,7 +30,7 @@ namespace AD
                     temporaryList.Add(tempArrayLeft[rightCount]);
                     rightCount++;
                 }
-            }
+            }*/
         }
 
         public override void Sort(List<int> list)

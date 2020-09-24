@@ -20,17 +20,17 @@ namespace AD
 
         public T GetData()
         {
-            throw new System.NotImplementedException();
+            return data;
         }
 
         public FCNSNode<T> GetFirstChild()
         {
-            throw new System.NotImplementedException();
+            return firstChild;
         }
 
         public FCNSNode<T> GetNextSibling()
         {
-            throw new System.NotImplementedException();
+            return nextSibling;
         }
     }
 }

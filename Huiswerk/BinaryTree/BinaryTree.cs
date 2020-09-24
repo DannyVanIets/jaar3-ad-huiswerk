@@ -10,12 +10,12 @@ namespace AD
 
         public BinaryTree()
         {
-            throw new System.NotImplementedException();
+            root = null;
         }
 
         public BinaryTree(T rootItem)
         {
-            throw new System.NotImplementedException();
+            root = new BinaryNode<T>(rootItem, null, null);
         }
 
 
@@ -25,27 +25,73 @@ namespace AD
 
         public BinaryNode<T> GetRoot()
         {
-            throw new System.NotImplementedException();
+            return root;
         }
 
         public int Size()
         {
-            throw new System.NotImplementedException();
+            int size = 0;
+            if (root != null)
+            {
+                return SizeWithNode(root, size);
+            }
+            return size;
+        }
+
+        public int SizeWithNode(BinaryNode<T> node, int size)
+        {
+            size++;
+            if (node.left != null)
+            {
+                SizeWithNode(node.left, size);
+            }
+            else if (node.right != null)
+            {
+                SizeWithNode(node.right, size);
+            }
+            return size;
         }
 
         public int Height()
         {
-            throw new System.NotImplementedException();
+            int height = -1;
+            if (root != null)
+            {
+                return CalculateHeight(root, height, height);
+            }
+            return height;
+        }
+
+        public int CalculateHeight(BinaryNode<T> node, int height, int max)
+        {
+            height++;
+            if(height > max)
+            {
+                max = height;
+            }
+            if (node.left != null)
+            {
+                CalculateHeight(node.left, height, max);
+            }
+            else if (node.right != null)
+            {
+                CalculateHeight(node.right, height, max);
+            }
+            return max;
         }
 
         public void MakeEmpty()
         {
-            throw new System.NotImplementedException();
+            root = null;
         }
 
         public bool IsEmpty()
         {
-            throw new System.NotImplementedException();
+            if (root != null)
+            {
+                return false;
+            }
+            return true;
         }
 
         public void Merge(T rootItem, BinaryTree<T> t1, BinaryTree<T> t2)
@@ -55,17 +101,29 @@ namespace AD
 
         public string ToPrefixString()
         {
-            throw new System.NotImplementedException();
+            if (root == null)
+            {
+                return "NIL";
+            }
+            return "";
         }
 
         public string ToInfixString()
         {
-            throw new System.NotImplementedException();
+            if (root == null)
+            {
+                return "NIL";
+            }
+            return "";
         }
 
         public string ToPostfixString()
         {
-            throw new System.NotImplementedException();
+            if (root == null)
+            {
+                return "NIL";
+            }
+            return "";
         }
 
 

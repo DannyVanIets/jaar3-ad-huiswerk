@@ -28,7 +28,26 @@ namespace AD
 
         public static IFirstChildNextSibling<string> CreateFirstChildNextSibling_18_3 ()
         {
-            throw new System.NotImplementedException();
+            FirstChildNextSibling<string> tree = new FirstChildNextSibling<string>();
+
+            FCNSNode<string> k = new FCNSNode<string>("k");
+            FCNSNode<string> j = new FCNSNode<string>("j", k, null);
+            FCNSNode<string> i = new FCNSNode<string>("i", null, j);
+            FCNSNode<string> e = new FCNSNode<string>("e", i, null);
+
+            FCNSNode<string> h = new FCNSNode<string>("h");
+            FCNSNode<string> d = new FCNSNode<string>("d", h, e);
+            FCNSNode<string> c = new FCNSNode<string>("c", null, d);
+
+            FCNSNode<string> g = new FCNSNode<string>("g");
+            FCNSNode<string> f = new FCNSNode<string>("f", null, g);
+            FCNSNode<string> b = new FCNSNode<string>("b", f, c);
+
+            FCNSNode<string> a = new FCNSNode<string>("a", b, null);
+
+            tree.root = a;
+
+            return tree;
         }
     }
 }

@@ -6,7 +6,6 @@ namespace AD
     {
         public FCNSNode<T> root;
         public int size;
-        public string spaces;
         public string tree;
 
         public int Size()
@@ -43,15 +42,14 @@ namespace AD
         {
             if (root != null)
             {
-                Console.WriteLine(root);
-                spaces = "   ";
+                Console.WriteLine(root.data);
+                string spaces = "   ";
                 if (root.firstChild != null)
                 {
                     PreOrder(root.firstChild, spaces);
                 }
                 if (root.nextSibling != null)
                 {
-                    spaces += "   ";
                     PreOrder(root.nextSibling, spaces);
                 }
             }
@@ -59,14 +57,14 @@ namespace AD
 
         public void PreOrder(FCNSNode<T> node, string spaces)
         {
-            Console.WriteLine(node);
+            Console.WriteLine(spaces + node.data);
             if (node.firstChild != null)
             {
-                PreOrder(node.firstChild, spaces);
+                string moreSpaces = spaces + "   ";
+                PreOrder(node.firstChild, moreSpaces);
             }
             if (node.nextSibling != null)
             {
-                spaces += "   ";
                 PreOrder(node.nextSibling, spaces);
             }
         }

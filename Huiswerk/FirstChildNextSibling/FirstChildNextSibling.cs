@@ -12,15 +12,7 @@ namespace AD
         {
             if (root != null)
             {
-                size++;
-                if (root.firstChild != null)
-                {
-                    SizeWithNode(root.firstChild);
-                }
-                if (root.nextSibling != null)
-                {
-                    SizeWithNode(root.nextSibling);
-                }
+                SizeWithNode(root);
             }
             return size;
         }

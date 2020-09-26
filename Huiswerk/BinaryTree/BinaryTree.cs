@@ -43,11 +43,11 @@ namespace AD
             size++;
             if (node.left != null)
             {
-                SizeWithNode(node.left, size);
+                size = SizeWithNode(node.left, size);
             }
-            else if (node.right != null)
+            if (node.right != null)
             {
-                SizeWithNode(node.right, size);
+                size = SizeWithNode(node.right, size);
             }
             return size;
         }
@@ -65,17 +65,17 @@ namespace AD
         public int CalculateHeight(BinaryNode<T> node, int height, int max)
         {
             height++;
-            if(height > max)
+            if (height > max)
             {
                 max = height;
             }
             if (node.left != null)
             {
-                CalculateHeight(node.left, height, max);
+                max = CalculateHeight(node.left, height, max);
             }
-            else if (node.right != null)
+            if (node.right != null)
             {
-                CalculateHeight(node.right, height, max);
+                max = CalculateHeight(node.right, height, max);
             }
             return max;
         }
@@ -96,7 +96,18 @@ namespace AD
 
         public void Merge(T rootItem, BinaryTree<T> t1, BinaryTree<T> t2)
         {
-            throw new System.NotImplementedException();
+            if (t1 == null)
+            {
+                root = new BinaryNode<T>(rootItem, null, t2.root);
+            }
+            else if (t2 == null)
+            {
+                root = new BinaryNode<T>(rootItem, t1.root, null);
+            }
+            else
+            {
+                root = new BinaryNode<T>(rootItem, t1.root, t2.root);
+            }
         }
 
         public string ToPrefixString()
@@ -105,7 +116,33 @@ namespace AD
             {
                 return "NIL";
             }
-            return "";
+            return CreatePrefixString(root, "[ ") + "]";
+        }
+
+        public string CreatePrefixString(BinaryNode<T> node, string prefixString)
+        {
+            prefixString += $"{node.data} ";
+            if (node.left != null)
+            {
+                prefixString += "[ ";
+                prefixString = CreatePrefixString(node.left, prefixString) + "] ";
+            }
+            else
+            {
+                prefixString += "NIL ";
+            }
+
+            if (node.right != null)
+            {
+                prefixString += "[ ";
+                prefixString = CreatePrefixString(node.right, prefixString) + "] ";
+            }
+            else
+            {
+                prefixString += "NIL ";
+            }
+
+            return prefixString;
         }
 
         public string ToInfixString()
@@ -114,7 +151,33 @@ namespace AD
             {
                 return "NIL";
             }
-            return "";
+            return CreateInfixString(root, "[ ") + "]";
+        }
+
+        public string CreateInfixString(BinaryNode<T> node, string infixfixString)
+        {
+            if (node.left != null)
+            {
+                infixfixString += "[ ";
+                infixfixString = CreateInfixString(node.left, infixfixString) + "] ";
+            }
+            else
+            {
+                infixfixString += "NIL ";
+            }
+
+            infixfixString += $"{node.data} ";
+
+            if (node.right != null)
+            {
+                infixfixString += "[ ";
+                infixfixString = CreateInfixString(node.right, infixfixString) + "] ";
+            }
+            else
+            {
+                infixfixString += "NIL ";
+            }
+            return infixfixString;
         }
 
         public string ToPostfixString()
@@ -123,9 +186,32 @@ namespace AD
             {
                 return "NIL";
             }
-            return "";
+            return CreatePostfixString(root, "[ ") + "]";
         }
 
+        public string CreatePostfixString(BinaryNode<T> node, string postfixString)
+        {
+            if (node.left != null)
+            {
+                postfixString += "[ ";
+                postfixString = CreatePostfixString(node.left, postfixString) + "] ";
+            }
+            else
+            {
+                postfixString += "NIL ";
+            }
+
+            if (node.right != null)
+            {
+                postfixString += "[ ";
+                postfixString = CreatePostfixString(node.right, postfixString) + "] ";
+            }
+            else
+            {
+                postfixString += "NIL ";
+            }
+            return postfixString += $"{node.data} "; ;
+        }
 
         //----------------------------------------------------------------------
         // Interface methods : methods that have to be implemented for homework
@@ -133,17 +219,86 @@ namespace AD
 
         public int NumberOfLeaves()
         {
-            throw new System.NotImplementedException();
+            int leaves = 0;
+            if (root != null)
+            {
+                return CalculateLeaves(root, leaves);
+            }
+            return leaves;
+        }
+
+        public int CalculateLeaves(BinaryNode<T> node, int totalLeaves)
+        {
+            if (node.left == null && node.right == null)
+            {
+                return totalLeaves + 1;
+            }
+
+            if (node.left != null)
+            {
+                totalLeaves = CalculateLeaves(node.left, totalLeaves);
+            }
+            if (node.right != null)
+            {
+                totalLeaves = CalculateLeaves(node.right, totalLeaves);
+            }
+            return totalLeaves;
         }
 
         public int NumberOfNodesWithOneChild()
         {
-            throw new System.NotImplementedException();
+            int oneChildren = 0;
+            if (root != null)
+            {
+                return CalculateOneChild(root, oneChildren);
+            }
+            return oneChildren;
+        }
+
+        public int CalculateOneChild(BinaryNode<T> node, int totalOneChild)
+        {
+            if (node.left != null && node.right == null || node.left == null && node.right != null)
+            {
+                totalOneChild++;
+            }
+
+            if (node.left != null)
+            {
+                totalOneChild = CalculateOneChild(node.left, totalOneChild);
+            }
+            if (node.right != null)
+            {
+                totalOneChild = CalculateOneChild(node.right, totalOneChild);
+            }
+            return totalOneChild;
         }
 
         public int NumberOfNodesWithTwoChildren()
         {
-            throw new System.NotImplementedException();
+            int twoChildren = 0;
+            if (root != null)
+            {
+                return CalculateTwoChildren(root, twoChildren);
+            }
+            return twoChildren;
+        }
+
+        public int CalculateTwoChildren(BinaryNode<T> node, int totalTwoChildren)
+        {
+            if (node.left != null && node.right != null)
+            {
+                totalTwoChildren += 1;
+            }
+
+            if (node.left != null)
+            {
+                totalTwoChildren = CalculateTwoChildren(node.left, totalTwoChildren);
+            }
+            if (node.right != null)
+            {
+                totalTwoChildren = CalculateTwoChildren(node.right, totalTwoChildren);
+            }
+            return totalTwoChildren;
         }
     }
 }

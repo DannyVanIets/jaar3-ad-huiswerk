@@ -70,7 +70,6 @@
             System.Console.WriteLine(intTree.ToPrefixString());
             System.Console.WriteLine(intTree.ToInfixString());
             System.Console.WriteLine(intTree.ToPostfixString());
-            System.Console.WriteLine(intTree.NumberOfNodesWithOneChild());
 
             // String tree
             stringTree = DSBuilder.CreateBinaryTreeString();

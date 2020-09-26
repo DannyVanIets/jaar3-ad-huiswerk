@@ -27,7 +27,6 @@ namespace AD
             BinaryTree<int> vijfacht = new BinaryTree<int>(8);
             BinaryTree<int> vijfzes = new BinaryTree<int>(6);
 
-
             BinaryTree<int> vijfzeven = new BinaryTree<int>();
             BinaryTree<int> vijftwee = new BinaryTree<int>();
             BinaryTree<int> vijf = new BinaryTree<int>();

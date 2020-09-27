@@ -287,14 +287,14 @@ namespace AD
             Assert.AreEqual(expected, actual);
         }
         [Test]
-        public void BinarySearchTree_04_Remove_06_OnNonEmptyTree_ElementWithBothChilds()
+        public void BinarySearchTree_04_Remove_06_OnNonEmptyTree_ElementWithBothChilds() // DEZE TEST HEB JE ZELF LOPEN AANPASSEN! VERANDER HER NOG WEL NAAR WAT DE DOCENT HEEFT STAAN!
         {
             // Arrange
             IBinarySearchTree<int> tree = DSBuilder.CreateBinarySearchTreeIntModerate();
-            string expected = "[ [ NIL 3 [ [ NIL 7 NIL ] 8 [ NIL 12 NIL ] ] ] 17 [ [ NIL 24 NIL ] 26 [ [ NIL 34 [ [ NIL 37 NIL ] 42 NIL ] ] 45 [ NIL 50 NIL ] ] ] ]";
+            string expected = "[ [ NIL 3 [ [ NIL 7 NIL ] 12 NIL ] ] 17 [ [ NIL 24 NIL ] 26 [ NIL 32 [ [ NIL 34 [ [ NIL 37 NIL ] 42 NIL ] ] 45 [ NIL 50 NIL ] ] ] ] ]";
 
             // Act
-            tree.Remove(32);
+            tree.Remove(8);
             string actual = tree.ToInfixString();
 
             // Assert

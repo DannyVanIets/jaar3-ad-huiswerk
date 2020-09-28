@@ -33,27 +33,20 @@ namespace AD
             size = 0;
         }
 
-        public void Add(T x)
+        public void Add(T x) // Aanpassen dat de size pas op het einde komt te staan.
         {
             size++;
-            if (size == 0)
+            DoubleArrayLength();
+            // Check if the new value being added is smaller than the parent.
+            // If so, then we will swap the parent with the newly added value.
+            // Which is called PercolateUp!
+            if (x.CompareTo(array[size / 2]) < 0)
             {
-                array[1] = x;
+                PercolateUp(x);
             }
             else
             {
-                DoubleArrayLength();
-                // Check if the new value being added is smaller than the parent.
-                // If so, then we will swap the parent with the newly added value.
-                // Which is called PercolateUp!
-                if (x.CompareTo(array[size / 2]) < 0)
-                {
-                    PercolateUp(x);
-                }
-                else
-                {
-                    array[size] = x;
-                }
+                array[size] = x;
             }
         }
 
@@ -139,7 +132,7 @@ namespace AD
             }
         }
 
-        private void PercolateDown(int node)
+        private void PercolateDown(int node) // Nog omzetten dat het gewoon een while loop gebruikt, maar je kan het ook vragen aan de docent of het goed is.
         {
             T tempValue = array[node];
             int leftChild = node * 2;
@@ -147,14 +140,14 @@ namespace AD
 
             if (leftChild < size || rightChild < size)
             {
-                if (array[leftChild].CompareTo(array[rightChild]) < 0)
+                if (array[leftChild].CompareTo(array[node]) < 0 && array[leftChild].CompareTo(array[rightChild]) < 0)
                 {
                     array[node] = array[leftChild];
                     array[leftChild] = tempValue;
 
                     PercolateDown(leftChild);
                 }
-                else
+                else if (array[rightChild].CompareTo(array[node]) < 0 && array[rightChild].CompareTo(array[leftChild]) < 0)
                 {
                     array[node] = array[rightChild];
                     array[rightChild] = tempValue;
@@ -175,13 +168,16 @@ namespace AD
 
         public void AddFreely(T x)
         {
-            throw new System.NotImplementedException();
+            array[size + 1] = x;
+            size++;
         }
 
         public void BuildHeap()
         {
-            throw new System.NotImplementedException();
+            for(int i = size / 2; i > 0; i--)
+            {
+                PercolateDown(i);
+            }
         }
-
     }
 }

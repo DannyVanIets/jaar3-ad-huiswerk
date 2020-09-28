@@ -155,7 +155,7 @@ namespace AD
                     PercolateDown(rightChild);
                 }
             }
-            else if (size == 2)
+            else if (leftChild == size)
             {
                 array[node] = array[leftChild];
                 array[leftChild] = tempValue;
@@ -174,7 +174,7 @@ namespace AD
 
         public void BuildHeap()
         {
-            for(int i = size / 2; i > 0; i--)
+            for (int i = size / 2; i > 0; i--)
             {
                 PercolateDown(i);
             }

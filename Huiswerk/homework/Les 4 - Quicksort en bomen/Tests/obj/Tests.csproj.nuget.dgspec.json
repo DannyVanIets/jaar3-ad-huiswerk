@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj": {}
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
+        "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
         "projectName": "Huiswerk4",
-        "projectPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
+        "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
         "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\obj\\",
+        "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj",
+        "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj",
+        "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Tests\\obj\\",
+        "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj": {
-                "projectPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj"
+              "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj": {
+                "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj"
               }
             }
           }

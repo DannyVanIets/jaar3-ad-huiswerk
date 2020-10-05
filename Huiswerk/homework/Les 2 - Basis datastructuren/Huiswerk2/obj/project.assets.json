@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
+      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
       "projectName": "Huiswerk2",
-      "projectPath": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
+      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\obj\\",
+      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",

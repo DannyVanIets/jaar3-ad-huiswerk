@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj": {}
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj": {}
   },
   "projects": {
-    "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj",
+        "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj",
         "projectName": "Huiswerk5",
-        "projectPath": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj",
+        "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj",
         "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\obj\\",
+        "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",

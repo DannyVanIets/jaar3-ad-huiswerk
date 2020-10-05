@@ -4644,11 +4644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\Tests.csproj",
+      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\Tests.csproj",
+      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\obj\\",
+      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4664,8 +4664,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj": {
-              "projectPath": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj"
+            "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj": {
+              "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Huiswerk5\\Huiswerk5.csproj"
             }
           }
         }

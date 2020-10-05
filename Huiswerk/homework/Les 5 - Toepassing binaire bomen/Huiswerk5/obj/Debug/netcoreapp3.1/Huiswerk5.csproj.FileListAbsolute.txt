@@ -11,3 +11,16 @@ D:\code\deleteLater\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debu
 D:\code\deleteLater\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.dll
 D:\code\deleteLater\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.pdb
 D:\code\deleteLater\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.genruntimeconfig.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\bin\Debug\netcoreapp3.1\Huiswerk5.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\bin\Debug\netcoreapp3.1\Huiswerk5.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\bin\Debug\netcoreapp3.1\Huiswerk5.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\bin\Debug\netcoreapp3.1\Huiswerk5.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\bin\Debug\netcoreapp3.1\Huiswerk5.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\bin\Debug\netcoreapp3.1\Huiswerk5.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.csproj.CoreCompileInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 5 - Toepassing binaire bomen\Huiswerk5\obj\Debug\netcoreapp3.1\Huiswerk5.genruntimeconfig.cache

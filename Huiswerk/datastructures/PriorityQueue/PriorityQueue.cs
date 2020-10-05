@@ -132,7 +132,7 @@ namespace AD
             }
         }
 
-        private void PercolateDown(int node) // Nog omzetten dat het gewoon een while loop gebruikt, maar je kan het ook vragen aan de docent of het goed is.
+        private void PercolateDown(int node)
         {
             T tempValue = array[node];
             int leftChild = node * 2;
@@ -155,7 +155,7 @@ namespace AD
                     PercolateDown(rightChild);
                 }
             }
-            else if (leftChild == size)
+            else if (leftChild == size && array[leftChild].CompareTo(array[node]) < 0)
             {
                 array[node] = array[leftChild];
                 array[leftChild] = tempValue;

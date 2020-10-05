@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1GZkmFGBA8arFThfTC1mP+y85R3mdJLpctOj47sT8yLMBN58xr5LAS8qpRbrEzaCsDE38oacAe90wHpflY1Njg==",
+  "dgSpecHash": "S+dbCYyZXYSCU509cIGd6O6TC8TVhfDM3uJYUH/aX6lszeqhIyfX2HuqEjqVBK6EHAaDAYd370ZtAIVLMh7ykg==",
   "success": true,
-  "projectFilePath": "D:\\code\\deleteLater\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 5 - Toepassing binaire bomen\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

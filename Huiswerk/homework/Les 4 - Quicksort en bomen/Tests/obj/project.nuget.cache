@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "COkkbfNnmv1h4kcak2XcNTpu7aLr3cPM/KJofZGOYsS/OZkC2Yv37P8azjfv+p/CKRBiienEPoIAkVy7BhK9zA==",
+  "dgSpecHash": "iM5vJTwulvF9jzgPmBAw4VjkIJapLvofOCitHFUQ5M1ld1ZirFSHsVacdwQcsoMzdTFUTL/cx7+xp5rmV4N3oA==",
   "success": true,
-  "projectFilePath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

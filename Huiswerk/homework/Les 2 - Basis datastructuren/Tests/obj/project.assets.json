@@ -4644,11 +4644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
+      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
+      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Tests\\obj\\",
+      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4664,8 +4664,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj": {
-              "projectPath": "D:\\code\\deleteLater\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj"
+            "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj": {
+              "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 2 - Basis datastructuren\\Huiswerk2\\Huiswerk2.csproj"
             }
           }
         }

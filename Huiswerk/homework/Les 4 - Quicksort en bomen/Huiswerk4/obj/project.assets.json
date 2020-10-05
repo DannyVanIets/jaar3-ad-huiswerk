@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
+      "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
       "projectName": "Huiswerk4",
-      "projectPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
+      "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\Huiswerk4.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\deleteLater\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\obj\\",
+      "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\homework\\Les 4 - Quicksort en bomen\\Huiswerk4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,7 +17,7 @@ namespace AD
 
         public Graph()
         {
-            throw new System.NotImplementedException();
+            vertexMap = new Dictionary<string, Vertex>();
         }
 
 
@@ -32,7 +32,10 @@ namespace AD
         /// <param name="name">The name of the new vertex</param>
         public void AddVertex(string name)
         {
-            throw new System.NotImplementedException();
+            if (!vertexMap.ContainsKey(name))
+            {
+                vertexMap.Add(name, new Vertex(name));
+            }
         }
 
 
@@ -44,7 +47,9 @@ namespace AD
         /// <returns>The vertex withe the given name</returns>
         public Vertex GetVertex(string name)
         {
-            throw new System.NotImplementedException();
+            AddVertex(name);
+            vertexMap.TryGetValue(name, out Vertex vertex);
+            return vertex;
         }
 
 
@@ -58,7 +63,11 @@ namespace AD
         /// <param name="cost">cost of the edge</param>
         public void AddEdge(string source, string dest, double cost = 1)
         {
-            throw new System.NotImplementedException();
+            AddVertex(source);
+            AddVertex(dest);
+            Vertex sourceVertex = GetVertex(source);
+            Vertex destinationVertex = GetVertex(dest);
+            sourceVertex.adj.AddLast(new Edge(destinationVertex, cost));
         }
 
 
@@ -66,9 +75,12 @@ namespace AD
         ///    Clears all info within the vertices. This method will not remove any
         ///    vertices or edges.
         /// </summary>
-        public void ClearAll()
+        public void ClearAll() // Wat moet hier precies gebeuren?
         {
-            throw new System.NotImplementedException();
+            foreach (Vertex vortex in vertexMap.Values)
+            {
+                vortex.Reset();
+            }
         }
 
         /// <summary>
@@ -101,7 +113,12 @@ namespace AD
         /// <returns>The string representation of this Graph instance</returns>
         public override string ToString()
         {
-            throw new System.NotImplementedException();
+            string turnToString = "";
+            foreach(Vertex vertex in vertexMap.OrderBy(x => x.Value.name).Select(x => x.Value))
+            {
+                turnToString += vertex.ToString();
+            }
+            return turnToString;
         }
 
 

@@ -24,7 +24,10 @@ namespace AD
         /// <param name="name">The name of the new vertex</param>
         public Vertex(string name)
         {
-            throw new System.NotImplementedException();
+            this.name = name;
+            adj = new LinkedList<Edge>();
+            distance = double.MaxValue;
+            prev = default;
         }
 
 
@@ -34,31 +37,33 @@ namespace AD
 
         public string GetName()
         {
-            throw new System.NotImplementedException();
+            return name;
         }
         public LinkedList<Edge> GetAdjacents()
         {
-            throw new System.NotImplementedException();
+            return adj;
         }
 
         public double GetDistance()
         {
-            throw new System.NotImplementedException();
+            return distance;
         }
 
         public Vertex GetPrevious()
         {
-            throw new System.NotImplementedException();
+            return prev;
         }
 
         public bool GetKnown()
         {
-            throw new System.NotImplementedException();
+            return known;
         }
 
-        public void Reset()
+        public void Reset() // Resets prev, distance (infinity) and known for a vertex
         {
-            throw new System.NotImplementedException();
+            prev = default;
+            distance = double.MaxValue;
+            known = false;
         }
 
 
@@ -75,7 +80,24 @@ namespace AD
         /// <returns>The string representation of this Graph instance</returns> 
         public override string ToString()
         {
-            throw new System.NotImplementedException();
+            string convertToString = $"{name} ";
+            if (distance != double.MaxValue)
+            {
+                convertToString += $"({distance}) ";
+            }
+
+            convertToString += "[ ";
+
+            if (adj.Count > 0)
+            {
+                foreach (Edge e in adj.OrderBy(x => x.dest.name))
+                {
+                    convertToString += $"{e.dest.name} ({e.cost})";
+                }
+            }
+
+            convertToString += "]";
+            return convertToString;
         }
     }
 }

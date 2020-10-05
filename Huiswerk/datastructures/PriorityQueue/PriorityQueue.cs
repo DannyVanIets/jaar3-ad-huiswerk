@@ -29,7 +29,6 @@ namespace AD
         public void Clear()
         {
             array = new T[DEFAULT_CAPACITY];
-            // of is array = null; misschien beter? Moeten we effe bekijken.
             size = 0;
         }
 
@@ -59,8 +58,10 @@ namespace AD
             }
             else if (size == 1)
             {
+                T toBeRemoved = array[1];
                 array = new T[DEFAULT_CAPACITY];
-                return default;
+                size--;
+                return toBeRemoved;
             }
             else
             {

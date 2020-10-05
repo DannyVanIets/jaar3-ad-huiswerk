@@ -26,8 +26,7 @@ namespace AD
         {
             this.name = name;
             adj = new LinkedList<Edge>();
-            distance = double.MaxValue;
-            prev = default;
+            Reset();
         }
 
 

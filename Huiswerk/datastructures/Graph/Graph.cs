@@ -48,8 +48,7 @@ namespace AD
         public Vertex GetVertex(string name)
         {
             AddVertex(name);
-            vertexMap.TryGetValue(name, out Vertex vertex);
-            return vertex;
+            return vertexMap[name];
         }
 
 
@@ -63,8 +62,6 @@ namespace AD
         /// <param name="cost">cost of the edge</param>
         public void AddEdge(string source, string dest, double cost = 1)
         {
-            AddVertex(source);
-            AddVertex(dest);
             Vertex sourceVertex = GetVertex(source);
             Vertex destinationVertex = GetVertex(dest);
             sourceVertex.adj.AddLast(new Edge(destinationVertex, cost));
@@ -75,7 +72,7 @@ namespace AD
         ///    Clears all info within the vertices. This method will not remove any
         ///    vertices or edges.
         /// </summary>
-        public void ClearAll() // Wat moet hier precies gebeuren?
+        public void ClearAll()
         {
             foreach (Vertex vortex in vertexMap.Values)
             {
@@ -89,7 +86,29 @@ namespace AD
         /// <param name="name">The name of the starting vertex</param>
         public void Unweighted(string name)
         {
-            throw new System.NotImplementedException();
+            ClearAll();
+
+            Vertex beginVertex = GetVertex(name);
+
+            Queue<Vertex> q = new Queue<Vertex>();
+            beginVertex.distance = 0;
+            q.Enqueue(beginVertex);
+
+            while (q.Count > 0)
+            {
+                Vertex oldVertex = q.Dequeue();
+
+                foreach (Edge edge in oldVertex.adj)
+                {
+                    Vertex adjacentVertex = edge.dest;
+                    if(adjacentVertex.distance == INFINITY)
+                    {
+                        adjacentVertex.distance = oldVertex.distance + 1;
+                        adjacentVertex.prev = oldVertex;
+                        q.Enqueue(adjacentVertex);
+                    }
+                }
+            }
         }
 
         /// <summary>
@@ -98,7 +117,31 @@ namespace AD
         /// <param name="name">The name of the starting vertex</param>
         public void Dijkstra(string name)
         {
-            throw new System.NotImplementedException();
+            PriorityQueue<Edge> priorityQueue = new PriorityQueue<Edge>();
+            int nodesSeen = 0;
+
+            Vertex startVertex = GetVertex(name);
+            startVertex.distance = 0;
+            priorityQueue.Add(new Edge(startVertex, 0));
+
+            while(priorityQueue.Size() > 0 && nodesSeen < vertexMap.Count)
+            {
+                Edge oldEdge = priorityQueue.Remove();
+                Vertex oldVertex = oldEdge.dest;
+                nodesSeen++;
+
+                foreach (var edge in oldVertex.adj)
+                {
+                    Vertex adjacentVertex = edge.dest;
+
+                    if(oldVertex.distance > adjacentVertex.distance + edge.cost)
+                    {
+                        oldVertex.distance = adjacentVertex.distance + edge.cost;
+                        oldVertex.prev = adjacentVertex;
+                        priorityQueue.Add(new Edge(oldVertex, oldVertex.distance));
+                    }
+                }
+            }
         }
 
         //----------------------------------------------------------------------
@@ -114,7 +157,7 @@ namespace AD
         public override string ToString()
         {
             string turnToString = "";
-            foreach(Vertex vertex in vertexMap.OrderBy(x => x.Value.name).Select(x => x.Value))
+            foreach (Vertex vertex in vertexMap.OrderBy(x => x.Value.name).Select(x => x.Value))
             {
                 turnToString += vertex.ToString();
             }

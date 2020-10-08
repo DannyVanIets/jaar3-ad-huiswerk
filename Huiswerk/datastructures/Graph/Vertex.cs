@@ -38,6 +38,7 @@ namespace AD
         {
             return name;
         }
+        
         public LinkedList<Edge> GetAdjacents()
         {
             return adj;

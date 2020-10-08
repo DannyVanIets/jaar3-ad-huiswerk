@@ -117,28 +117,31 @@ namespace AD
         /// <param name="name">The name of the starting vertex</param>
         public void Dijkstra(string name)
         {
+            ClearAll();
             PriorityQueue<Edge> priorityQueue = new PriorityQueue<Edge>();
-            int nodesSeen = 0;
 
             Vertex startVertex = GetVertex(name);
             startVertex.distance = 0;
             priorityQueue.Add(new Edge(startVertex, 0));
 
-            while(priorityQueue.Size() > 0 && nodesSeen < vertexMap.Count)
+            while(priorityQueue.Size() > 0)
             {
                 Edge oldEdge = priorityQueue.Remove();
                 Vertex oldVertex = oldEdge.dest;
-                nodesSeen++;
+                startVertex.known = true;
 
                 foreach (var edge in oldVertex.adj)
                 {
                     Vertex adjacentVertex = edge.dest;
-
-                    if(oldVertex.distance > adjacentVertex.distance + edge.cost)
+                    
+                    if(adjacentVertex.known == false)
                     {
-                        oldVertex.distance = adjacentVertex.distance + edge.cost;
-                        oldVertex.prev = adjacentVertex;
-                        priorityQueue.Add(new Edge(oldVertex, oldVertex.distance));
+                        if (oldVertex.distance + edge.cost < adjacentVertex.distance)
+                        {
+                            oldVertex.distance = adjacentVertex.distance + edge.cost;
+                            oldVertex.prev = adjacentVertex;
+                            priorityQueue.Add(new Edge(oldVertex, oldVertex.distance));
+                        }
                     }
                 }
             }

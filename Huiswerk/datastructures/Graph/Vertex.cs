@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace AD
 {
-    public partial class Vertex : IVertex
+    public partial class Vertex : IVertex, IComparable<Vertex>
     {
         public string name;
         public LinkedList<Edge> adj;
@@ -98,6 +98,24 @@ namespace AD
 
             convertToString += "]";
             return convertToString;
+        }
+
+        int IComparable<Vertex>.CompareTo(Vertex other)
+        {
+
+            double otherDist;
+            if (other == null)
+            {
+                otherDist = 0;
+            }
+            else
+            {
+                otherDist = other.distance;
+            }
+            // if (distance < other.distance) -1
+            // else if (distance > other.distance) 1
+            // else 0
+            return distance < otherDist ? -1 : distance > otherDist ? 1 : 0;
         }
     }
 }

@@ -118,32 +118,37 @@ namespace AD
         public void Dijkstra(string name)
         {
             ClearAll();
-            PriorityQueue<Edge> priorityQueue = new PriorityQueue<Edge>();
+            Vertex startingVertex = GetVertex(name);
 
-            Vertex startVertex = GetVertex(name);
-            startVertex.distance = 0;
-            priorityQueue.Add(new Edge(startVertex, 0));
+            startingVertex.distance = 0;
+            PriorityQueue<Vertex> priorityQueue = new PriorityQueue<Vertex>();
+            priorityQueue.AddFreely(startingVertex);
 
-            while(priorityQueue.Size() > 0)
+            while(priorityQueue.size != 0)
             {
-                Edge oldEdge = priorityQueue.Remove();
-                Vertex oldVertex = oldEdge.dest;
-                startVertex.known = true;
+                startingVertex = priorityQueue.array[1];
 
-                foreach (var edge in oldVertex.adj)
+                if (startingVertex.known)
                 {
-                    Vertex adjacentVertex = edge.dest;
-                    
-                    if(adjacentVertex.known == false)
+                    priorityQueue.Remove();
+                    continue;
+                }
+
+                startingVertex.known = true;
+                foreach (Edge e in startingVertex.adj)
+                {
+                    Vertex adjacentVertex = e.dest;
+                    if (!adjacentVertex.known)
                     {
-                        if (oldVertex.distance + edge.cost < adjacentVertex.distance)
+                        if(startingVertex.distance + e.cost < adjacentVertex.distance)
                         {
-                            oldVertex.distance = adjacentVertex.distance + edge.cost;
-                            oldVertex.prev = adjacentVertex;
-                            priorityQueue.Add(new Edge(oldVertex, oldVertex.distance));
+                            adjacentVertex.distance = startingVertex.distance + e.cost;
+                            adjacentVertex.prev = startingVertex;
                         }
+                        priorityQueue.AddFreely(adjacentVertex);
                     }
                 }
+                priorityQueue.Remove();
             }
         }
 

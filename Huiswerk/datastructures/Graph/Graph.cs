@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -86,11 +87,12 @@ namespace AD
         /// <param name="name">The name of the starting vertex</param>
         public void Unweighted(string name)
         {
+            // Reset everthing in the vertexes
             ClearAll();
 
             Vertex beginVertex = GetVertex(name);
-
             Queue<Vertex> q = new Queue<Vertex>();
+
             beginVertex.distance = 0;
             q.Enqueue(beginVertex);
 
@@ -101,7 +103,7 @@ namespace AD
                 foreach (Edge edge in oldVertex.adj)
                 {
                     Vertex adjacentVertex = edge.dest;
-                    if(adjacentVertex.distance == INFINITY)
+                    if (adjacentVertex.distance == INFINITY)
                     {
                         adjacentVertex.distance = oldVertex.distance + 1;
                         adjacentVertex.prev = oldVertex;
@@ -118,37 +120,33 @@ namespace AD
         public void Dijkstra(string name)
         {
             ClearAll();
+
             Vertex startingVertex = GetVertex(name);
+            PriorityQueue<Vertex> priorityQueue = new PriorityQueue<Vertex>();
 
             startingVertex.distance = 0;
-            PriorityQueue<Vertex> priorityQueue = new PriorityQueue<Vertex>();
             priorityQueue.AddFreely(startingVertex);
 
-            while(priorityQueue.size != 0)
+            while (priorityQueue.size != 0)
             {
-                startingVertex = priorityQueue.array[1];
+                startingVertex = GetAndRemoveLowestVertex(priorityQueue);
 
                 if (startingVertex.known)
                 {
-                    priorityQueue.Remove();
-                    continue;
+                    continue; // Will make you start at the beginning of the while loop again.
                 }
 
                 startingVertex.known = true;
                 foreach (Edge e in startingVertex.adj)
                 {
                     Vertex adjacentVertex = e.dest;
-                    if (!adjacentVertex.known)
+                    if (startingVertex.distance + e.cost < adjacentVertex.distance && !adjacentVertex.known)
                     {
-                        if(startingVertex.distance + e.cost < adjacentVertex.distance)
-                        {
-                            adjacentVertex.distance = startingVertex.distance + e.cost;
-                            adjacentVertex.prev = startingVertex;
-                        }
-                        priorityQueue.AddFreely(adjacentVertex);
+                        adjacentVertex.distance = startingVertex.distance + e.cost;
+                        adjacentVertex.prev = startingVertex;
                     }
+                    priorityQueue.AddFreely(adjacentVertex);
                 }
-                priorityQueue.Remove();
             }
         }
 
@@ -184,5 +182,32 @@ namespace AD
             throw new System.NotImplementedException();
         }
 
+        public Vertex GetAndRemoveLowestVertex(PriorityQueue<Vertex> priorityQueue)
+        {
+            Vertex lowestVertex = new Vertex("Placeholder");
+            int arrayPlace = 0;
+
+            lowestVertex.distance = INFINITY;
+
+            for (int i = 1; i <= priorityQueue.size; i++)
+            {
+                Vertex currentVertex = priorityQueue.array[i];
+
+                if (currentVertex.distance < lowestVertex.distance)
+                {
+                    lowestVertex = currentVertex;
+                    arrayPlace = i;
+                }
+            }
+
+            for(; arrayPlace <= priorityQueue.size; arrayPlace++)
+            {
+                priorityQueue.array[arrayPlace] = priorityQueue.array[arrayPlace + 1];
+            }
+
+            priorityQueue.size--;
+
+            return lowestVertex;
+        }
     }
 }

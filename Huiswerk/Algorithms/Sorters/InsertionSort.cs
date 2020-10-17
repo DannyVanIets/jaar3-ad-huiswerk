@@ -7,7 +7,7 @@ namespace AD
     {
         public override void Sort(List<int> list)
         {
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 1; i < list.Count; i++)
             {
                 int temporary = list[i];
 

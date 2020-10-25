@@ -1,0 +1,13 @@
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\bin\Debug\netcoreapp3.1\RegioGraaf.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\bin\Debug\netcoreapp3.1\RegioGraaf.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\bin\Debug\netcoreapp3.1\RegioGraaf.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\bin\Debug\netcoreapp3.1\RegioGraaf.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\bin\Debug\netcoreapp3.1\RegioGraaf.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\bin\Debug\netcoreapp3.1\RegioGraaf.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.csproj.CoreCompileInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\RegioGraaf\obj\Debug\netcoreapp3.1\RegioGraaf.genruntimeconfig.cache

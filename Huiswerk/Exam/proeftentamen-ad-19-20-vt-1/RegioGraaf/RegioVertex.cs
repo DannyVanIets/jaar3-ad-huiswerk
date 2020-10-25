@@ -20,7 +20,10 @@ namespace AD
 
         public void RegioReset() // Same as reset, but also resets "visited"
         {
-            throw new System.NotImplementedException();
+            prev = default;
+            distance = double.MaxValue;
+            known = false;
+            visited = null;
         }
 
         //----------------------------------------------------------------------

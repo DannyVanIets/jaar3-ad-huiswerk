@@ -24,12 +24,71 @@
 
         public MIBNode FindNode(string oid)
         {
-            throw new System.NotImplementedException();
+            if (root != null)
+            {
+                BinaryNode<MIBNode> currentNode = root;
+                while (currentNode != null)
+                {
+                    if (currentNode.data.oid == oid)
+                    {
+                        return currentNode.data;
+                    }
+                    else if (oid.CompareTo(currentNode.data.oid) < 0 && currentNode.left != null)
+                    {
+                        currentNode = currentNode.left;
+                    }
+                    else if (oid.CompareTo(currentNode.data.oid) > 0 && currentNode.right != null)
+                    {
+                        currentNode = currentNode.right;
+                    }
+                    else
+                    {
+                        currentNode = null;
+                    }
+                }
+            }
+            return null;
         }
 
         public bool AllNodesAvailable(string oid)
         {
-            throw new System.NotImplementedException();
+            bool result = true;
+            string[] oidArray = oid.Split(".");
+
+            for (int i = 0; i < oidArray.Length && result; i++)
+            {
+                string oidParsed = "";
+                for (int j = 0; j <= i; j++)
+                {
+                    oidParsed += oidArray[j];
+                    if (j < i)
+                    {
+                        oidParsed += ".";
+                    }
+                }
+                result = AllNodesRecursive(root, oidParsed);
+            }
+            return result;
+        }
+
+        public bool AllNodesRecursive(BinaryNode<MIBNode> currentNode, string oid)
+        {
+            if (currentNode.data.oid == oid)
+            {
+                return true;
+            }
+            else if (oid.CompareTo(currentNode.data.oid) < 0 && currentNode.left != null)
+            {
+                return AllNodesRecursive(currentNode.left, oid);
+            }
+            else if (oid.CompareTo(currentNode.data.oid) > 0 && currentNode.right != null)
+            {
+                return AllNodesRecursive(currentNode.right, oid);
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

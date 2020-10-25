@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\proeftentamen-ad-19-20-vt-1\\MIBTree\\MIBTree.csproj": {}
+  },
+  "projects": {
+    "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\proeftentamen-ad-19-20-vt-1\\MIBTree\\MIBTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\proeftentamen-ad-19-20-vt-1\\MIBTree\\MIBTree.csproj",
+        "projectName": "MIBTree",
+        "projectPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\proeftentamen-ad-19-20-vt-1\\MIBTree\\MIBTree.csproj",
+        "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\proeftentamen-ad-19-20-vt-1\\MIBTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

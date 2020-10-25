@@ -10,12 +10,17 @@ namespace AD
         //----------------------------------------------------------------------
         public void RegioClearAll() // Calls Vertex.RegionReset() for all vertices
         {
-            throw new System.NotImplementedException();
+            foreach (Vertex vortex in vertexMap.Values)
+            {
+                vortex.RegioReset();
+            }
         }
 
         public string AllPaths()
         {
-            throw new System.NotImplementedException();
+            RegioClearAll();
+
+            return "";
         }
 
         public void AddUndirectedEdge(string source, string dest, double cost)

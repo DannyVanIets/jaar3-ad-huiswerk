@@ -1,0 +1,13 @@
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\bin\Debug\netcoreapp3.1\MIBTree.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\bin\Debug\netcoreapp3.1\MIBTree.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\bin\Debug\netcoreapp3.1\MIBTree.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\bin\Debug\netcoreapp3.1\MIBTree.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\bin\Debug\netcoreapp3.1\MIBTree.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\bin\Debug\netcoreapp3.1\MIBTree.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.csproj.CoreCompileInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proeftentamen-ad-19-20-vt-1\MIBTree\obj\Debug\netcoreapp3.1\MIBTree.genruntimeconfig.cache

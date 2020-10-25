@@ -96,7 +96,7 @@ namespace AD
                 }
             }
 
-            convertToString += "]";
+            convertToString += "] \n"; // \n makes an enter in the console.
             return convertToString;
         }
 

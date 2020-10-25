@@ -7,8 +7,7 @@
 
         public MyLinkedList()
         {
-            head = null; //Deze bespreken tijdens de les op locatie.
-            // gaat over de test MyLinkedList_7_Internal_1_Constructor().
+            head = null;
         }
 
         public void AddFirst(T data)

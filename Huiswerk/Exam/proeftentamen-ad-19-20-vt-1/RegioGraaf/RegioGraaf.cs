@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AD
 {
@@ -18,26 +19,64 @@ namespace AD
 
         public string AllPaths()
         {
-            RegioClearAll();
+            string turnToString = "";
+            foreach(Vertex vertex in vertexMap.Select(x => x.Value))
+            {
+                turnToString += vertex.name + ";";
+            }
 
-            return "";
+            return turnToString;
         }
 
         public void AddUndirectedEdge(string source, string dest, double cost)
         {
-            throw new System.NotImplementedException();
+            Vertex sourceVertex = GetVertex(source);
+            Vertex destinationVertex = GetVertex(dest);
+            sourceVertex.adj.AddLast(new Edge(destinationVertex, cost));
+            destinationVertex.adj.AddLast(new Edge(sourceVertex, cost));
         }
 
 
         public void AddVertex(string name, string regio)
         {
-            throw new System.NotImplementedException();
+            if (!vertexMap.ContainsKey(name))
+            {
+                vertexMap.Add(name, new Vertex(name, regio));
+            }
         }
 
 
         public void RegioDijkstra(string name)
         {
-            throw new System.NotImplementedException();
+            RegioClearAll();
+
+            Vertex startingVertex = GetVertex(name);
+            PriorityQueue<Vertex> priorityQueue = new PriorityQueue<Vertex>();
+
+            startingVertex.distance = 0;
+            priorityQueue.AddFreely(startingVertex);
+
+            while (priorityQueue.size != 0)
+            {
+                startingVertex = GetAndRemoveLowestVertex(priorityQueue);
+
+                if (startingVertex.known)
+                {
+                    continue; // Will make you start at the beginning of the while loop again.
+                }
+
+                startingVertex.known = true;
+                foreach (Edge e in startingVertex.adj)
+                {
+                    Vertex adjacentVertex = e.dest;
+                    if (startingVertex.distance + e.cost < adjacentVertex.distance && !adjacentVertex.known)
+                    {
+                        adjacentVertex.distance = startingVertex.distance + e.cost;
+                        adjacentVertex.prev = startingVertex;
+                    }
+                    priorityQueue.AddFreely(adjacentVertex);
+                }
+            }
         }
     }
 }

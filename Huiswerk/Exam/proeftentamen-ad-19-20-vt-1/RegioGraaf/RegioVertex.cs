@@ -15,7 +15,8 @@ namespace AD
 
         public Vertex(string name, string regio)  // <----# added
         {
-            throw new System.NotImplementedException();
+            this.name = name;
+            this.regio = regio;
         }
 
         public void RegioReset() // Same as reset, but also resets "visited"
@@ -31,7 +32,7 @@ namespace AD
         //----------------------------------------------------------------------
         public string GetRegio()
         {
-            throw new System.NotImplementedException();
+            return regio;
         }
     }
 }

@@ -52,43 +52,22 @@
 
         public bool AllNodesAvailable(string oid)
         {
-            bool result = true;
-            string[] oidArray = oid.Split(".");
-
-            for (int i = 0; i < oidArray.Length && result; i++)
+            bool result = false;
+            if (FindNode(oid) != null)
             {
-                string oidParsed = "";
-                for (int j = 0; j <= i; j++)
+                // This will take everything of the string before the last .
+                int length = oid.LastIndexOf(".");
+
+                // base case
+                if(length <= 0)
                 {
-                    oidParsed += oidArray[j];
-                    if (j < i)
-                    {
-                        oidParsed += ".";
-                    }
+                    return true;
                 }
-                result = AllNodesRecursive(root, oidParsed);
+
+                // This will shorten the string everytime, making it recursive.
+                result = AllNodesAvailable(oid.Substring(0, length));
             }
             return result;
-        }
-
-        public bool AllNodesRecursive(BinaryNode<MIBNode> currentNode, string oid)
-        {
-            if (currentNode.data.oid == oid)
-            {
-                return true;
-            }
-            else if (oid.CompareTo(currentNode.data.oid) < 0 && currentNode.left != null)
-            {
-                return AllNodesRecursive(currentNode.left, oid);
-            }
-            else if (oid.CompareTo(currentNode.data.oid) > 0 && currentNode.right != null)
-            {
-                return AllNodesRecursive(currentNode.right, oid);
-            }
-            else
-            {
-                return false;
-            }
         }
     }
 }

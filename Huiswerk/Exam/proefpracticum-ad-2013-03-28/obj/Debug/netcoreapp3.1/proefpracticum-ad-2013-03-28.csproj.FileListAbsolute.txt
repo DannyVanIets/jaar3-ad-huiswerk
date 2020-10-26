@@ -1,0 +1,15 @@
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.genruntimeconfig.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.csproj.CoreCompileInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\bin\Debug\netcoreapp3.1\nunit.framework.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\proefpracticum-ad-2013-03-28\obj\Debug\netcoreapp3.1\proefpracticum-ad-2013-03-28.csproj.CopyComplete

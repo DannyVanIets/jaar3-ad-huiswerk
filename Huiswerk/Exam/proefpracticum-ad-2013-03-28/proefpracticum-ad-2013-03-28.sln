@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proefpracticum-ad-2013-03-28", "proefpracticum-ad-2013-03-28.csproj", "{2B584DED-8C39-41CB-98D4-5A3E4C323B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Self-made tests\Tests.csproj", "{3D39291A-837A-4308-BABD-43A78C2AD3F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B584DED-8C39-41CB-98D4-5A3E4C323B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B584DED-8C39-41CB-98D4-5A3E4C323B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B584DED-8C39-41CB-98D4-5A3E4C323B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B584DED-8C39-41CB-98D4-5A3E4C323B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D39291A-837A-4308-BABD-43A78C2AD3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D39291A-837A-4308-BABD-43A78C2AD3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D39291A-837A-4308-BABD-43A78C2AD3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D39291A-837A-4308-BABD-43A78C2AD3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31C86EE6-5E4B-4779-81A3-CEEAE73BF628}
+	EndGlobalSection
+EndGlobal

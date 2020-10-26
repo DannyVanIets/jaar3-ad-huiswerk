@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0QBWfLocOKllwhi5EMwmII4UzTtCVEPjSyrb3XQERGCCEGBeyox5tOfgs7QAIrWpD5tDuWyICszVdZ8lo0vINA==",
+  "success": true,
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\proefpracticum-ad-2013-03-28\\proefpracticum-ad-2013-03-28.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

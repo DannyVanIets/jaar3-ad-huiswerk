@@ -10,6 +10,8 @@
             data = new int[capacity];
         }
 
+        // It's an array, so it's not difficult to understand what's going on here.
+        // First element will be on arrayplace = 0, the next one on 1, etc.
         public void Add(int n)
         {
             if (size >= data.Length)
@@ -32,6 +34,7 @@
             return data[index];
         }
 
+        // Set? More like update.
         public void Set(int index, int n)
         {
             if (index < 0 || index > size - 1)
@@ -73,6 +76,7 @@
             return occurences;
         }
 
+        // If size is bigger than 0, it will display for example: [1,2,3]
         public override string ToString()
         {
             if (size == 0)

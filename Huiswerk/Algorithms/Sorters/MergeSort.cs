@@ -11,41 +11,50 @@ namespace AD
             List<int> leftArray = new List<int>();
             List<int> rightArray = new List<int>();
 
-            for (int l = 0; l < center; l++)
+            int n1 = center - left + 1;
+            int n2 = right - center;
+
+            for (int l = 0; l < n1; l++)
             {
-                leftArray.Add(list[l]);
+                leftArray.Add(list[left + l]);
             }
 
-            for (int r = center; r < list.Count; r++)
+            for (int r = 0; r < n2; r++)
             {
-                rightArray.Add(list[r]);
+                rightArray.Add(list[center + r + 1]);
             }
 
             int i = 0;
             int j = 0;
+            int a = left;
 
-            for (int m = left; m < right + 1; m++)
+            while (i < n1 && j < n2)
             {
-                if (i == leftArray.Count)
+                if (leftArray[i] <= rightArray[j])
                 {
-                    list[m] = rightArray[j];
-                    j++;
-                }
-                else if (j == rightArray.Count)
-                {
-                    list[m] = leftArray[i];
-                    i++;
-                }
-                else if (leftArray[i] <= rightArray[j])
-                {
-                    list[m] = leftArray[i];
+                    list[a] = leftArray[i];
                     i++;
                 }
                 else
                 {
-                    list[m] = rightArray[j];
+                    list[a] = rightArray[j];
                     j++;
                 }
+                a++;
+            }
+
+            while(i < n1)
+            {
+                list[a] = leftArray[i];
+                i++;
+                a++;
+            }
+
+            while (j < n2)
+            {
+                list[a] = rightArray[j];
+                j++;
+                a++;
             }
         }
 

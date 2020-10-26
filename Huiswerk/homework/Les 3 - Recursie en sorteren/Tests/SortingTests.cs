@@ -9,10 +9,8 @@ namespace AD
     {
         [Test, Combinatorial]
         public void Sort(
-                    //[Values("InsertionSort", "MergeSort", "ShellSort")] string sorterName,
-                    [Values("MergeSort")] string sorterName,
-                    //[Values(0, 10, 300)] int n)
-                    [Values(10, 300)] int n)
+                    [Values("InsertionSort", "MergeSort", "ShellSort")] string sorterName,
+                    [Values(0, 10, 300)] int n)
         {
             List<int> list = new List<int>();
             List<int> listCopy;
@@ -28,17 +26,6 @@ namespace AD
             {
                 list.Add(random.Next(0, 100000));
             }
-
-            /*list.Add(78083);
-            list.Add(1886);
-            list.Add(53121);
-            list.Add(8946);
-            list.Add(61);
-            list.Add(48931);
-            list.Add(58121);
-            list.Add(22519);
-            list.Add(91682);
-            list.Add(31820);*/
 
             listCopy = new List<int>(list);
             listCopy.Sort();

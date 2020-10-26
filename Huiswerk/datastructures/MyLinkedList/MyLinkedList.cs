@@ -2,6 +2,8 @@
 {
     public partial class MyLinkedList<T> : IMyLinkedList<T>
     {
+        // Head is what you will use for everything.
+        // It's what you start with and then go through the rest of all the nodes.
         public MyLinkedListNode<T> head;
         private int size;
 
@@ -10,6 +12,8 @@
             head = null;
         }
 
+        // Through this function we will place the new node at the head and the old one after that.
+        // head.next = old head, head.data = data.
         public void AddFirst(T data)
         {
             if (size == 0)
@@ -38,6 +42,7 @@
             return head.data;
         }
 
+        // Replace the head with everything from head.next if the size is bigger than 1.
         public void RemoveFirst()
         {
             if (size == 0)
@@ -68,6 +73,8 @@
             size = 0;
         }
 
+        // We will go through head.next until we are at the place where we want to be.
+        // There we will add a new node (and potentionally replace an old one).
         public void Insert(int index, T data)
         {
             if (index < 0 || index > size)
@@ -100,6 +107,7 @@
             }
         }
 
+        // If List is bigger than 0, will display it like this for example: "[1,2,3]"
         public override string ToString()
         {
             if (size == 0)

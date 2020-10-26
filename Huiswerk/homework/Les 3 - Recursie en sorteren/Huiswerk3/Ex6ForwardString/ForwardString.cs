@@ -29,11 +29,11 @@ namespace AD
             }
             else if (to == 0)
             {
-                return $"{list[0]} " + BackwardString(list.GetRange(1, list.Count - 1), to);
+                return BackwardString(list.GetRange(1, list.Count - 1), to) + $" {list[0]}";
             }
             else
             {
-                list.RemoveAt(list.Count - to);
+                list.RemoveAt(to - 1);
                 return BackwardString(list, to - 1);
             }
         }

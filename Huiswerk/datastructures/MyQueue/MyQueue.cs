@@ -15,6 +15,7 @@ namespace AD
             return false;
         }
 
+        // New added elements will be placed at the back.
         public void Enqueue(T data)
         {
             queue.Add(data);
@@ -29,6 +30,7 @@ namespace AD
             return queue[0];
         }
 
+        // Removes element at the front and returns it.
         public T Dequeue()
         {
             if (queue.Count == 0)

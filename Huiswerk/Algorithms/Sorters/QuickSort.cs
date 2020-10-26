@@ -21,14 +21,13 @@ namespace AD
             // met quicksort het te sorteren. Dan kunnen we beter insertionsort gebruiken
             if (low + CUTOFF > high)
             {
-                insertionSort.Sort(list);
+                insertionSort.SortWithCutoff(list, low, high);
             }
             else
             {
                 int center = (low + high) / 2;
                 // Sorteer het 1ste, het middelste en het laatste getal op de goede volgorde alvast.
-                // CompareTo gebruiken we om te kijken of bijvoorbeeld het middelste getal kleiner is dan het laagste getal.
-                if (list[center].CompareTo(list[low]) < 0)
+                if (list[center] < list[low])
                 {
                     SwapElements(list, low, center);
                 }
@@ -41,24 +40,24 @@ namespace AD
                     SwapElements(list, center, high);
                 }
 
-                // Verwissel de pivot met de 1na laatste getal. Dus wat op de plek list.count - 1 staat
-                SwapElements(list, center, high - 1);
-                int pivot = list[high - 1];
+                // Verwissel de pivot met laatste getal. Dus wat op de plek list.count - 1 staat
+                SwapElements(list, center, high);
+                int pivot = list[high];
 
                 int i;
                 int j;
 
                 for (i = low, j = high - 1; ;)
                 {
-                    // int i kijkt altijd of getal in de lijst kleiner is dan de pivot.
-                    while (list[i++] < pivot)
+                    // int i blijft loopen totdat er een getal is gevonden die groter is dan de pivot.
+                    while (list[i] < pivot)
                     {
-
+                        i++;
                     }
-                    // int j kijkt altijd of het getal in de lijst groter is dan de pivot.
-                    while (list[j--] > pivot)
+                    // int j blijft loopen totdat er een getal is gevonden die kleiner is dan de pivot.
+                    while (list[j] > pivot)
                     {
-
+                        j--;
                     }
                     if (i >= j)
                     {
@@ -68,7 +67,7 @@ namespace AD
                 }
 
                 //Pivot zetten op de plek tussen de twee lijsten.
-                SwapElements(list, i, high - 1);
+                SwapElements(list, i, high);
 
                 //Alles wat aan de linker kant van de pivot staat sorteren.
                 Quicksort(list, low, i - 1);

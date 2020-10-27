@@ -189,10 +189,8 @@ D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\bin\Debug\netcoreapp3.1\Huiswerk4.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\bin\Debug\netcoreapp3.1\Huiswerk4.pdb
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.csprojAssemblyReference.cache
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CopyComplete
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 4 - Quicksort en bomen\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache

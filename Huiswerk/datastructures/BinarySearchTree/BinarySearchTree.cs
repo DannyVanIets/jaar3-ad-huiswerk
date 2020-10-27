@@ -214,7 +214,7 @@ namespace AD
             }
         }
 
-        public string InOrder() // Mag je wel recursive hier gebruiken? Is wel veel makkelijker dan een while loop.
+        public string InOrder()
         {
             string inOrderString = "";
             inOrderString = InOrderString(root, inOrderString);

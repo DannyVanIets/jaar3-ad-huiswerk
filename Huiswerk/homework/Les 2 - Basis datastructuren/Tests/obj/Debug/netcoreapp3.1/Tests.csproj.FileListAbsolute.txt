@@ -189,10 +189,8 @@ D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tes
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\bin\Debug\netcoreapp3.1\Huiswerk2.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\bin\Debug\netcoreapp3.1\Huiswerk2.pdb
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.csprojAssemblyReference.cache
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CopyComplete
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
-D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache

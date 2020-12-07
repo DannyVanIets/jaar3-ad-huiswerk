@@ -4,6 +4,7 @@ namespace AD
     {
         public FCNSNode<T> firstChild;
         public FCNSNode<T> nextSibling;
+        public FCNSNode<T> secondSibling;
         public T data;
 
         public FCNSNode(T data, FCNSNode<T> firstChild, FCNSNode<T> nextSibling)
@@ -11,6 +12,14 @@ namespace AD
             this.data = data;
             this.firstChild = firstChild;
             this.nextSibling = nextSibling;
+        }
+
+        public FCNSNode(T data, FCNSNode<T> firstChild, FCNSNode<T> nextSibling, FCNSNode<T> secondSibling)
+        {
+            this.data = data;
+            this.firstChild = firstChild;
+            this.nextSibling = nextSibling;
+            this.secondSibling = secondSibling;
         }
 
         public FCNSNode(T data)

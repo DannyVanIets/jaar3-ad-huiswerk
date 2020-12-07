@@ -28,6 +28,10 @@ namespace AD
             {
                 SizeWithNode(node.nextSibling);
             }
+            if (node.secondSibling != null)
+            {
+                SizeWithNode(node.secondSibling);
+            }
         }
 
         public void PrintPreOrder()

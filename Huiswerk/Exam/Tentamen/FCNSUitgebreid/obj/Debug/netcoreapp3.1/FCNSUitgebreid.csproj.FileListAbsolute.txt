@@ -1,0 +1,11 @@
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\bin\Debug\netcoreapp3.1\FCNSUitgebreid.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\bin\Debug\netcoreapp3.1\FCNSUitgebreid.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\bin\Debug\netcoreapp3.1\FCNSUitgebreid.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\bin\Debug\netcoreapp3.1\FCNSUitgebreid.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\bin\Debug\netcoreapp3.1\FCNSUitgebreid.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\bin\Debug\netcoreapp3.1\FCNSUitgebreid.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\obj\Debug\netcoreapp3.1\FCNSUitgebreid.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\obj\Debug\netcoreapp3.1\FCNSUitgebreid.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\obj\Debug\netcoreapp3.1\FCNSUitgebreid.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\obj\Debug\netcoreapp3.1\FCNSUitgebreid.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\FCNSUitgebreid\obj\Debug\netcoreapp3.1\FCNSUitgebreid.pdb

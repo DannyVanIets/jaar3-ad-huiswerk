@@ -21,3 +21,4 @@ D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Hui
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.AssemblyInfo.cs
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.dll
 D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\homework\Les 2 - Basis datastructuren\Huiswerk2\obj\Debug\netcoreapp3.1\Huiswerk2.csprojAssemblyReference.cache

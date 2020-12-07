@@ -1,0 +1,11 @@
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\bin\Debug\netcoreapp3.1\Teken.exe
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\bin\Debug\netcoreapp3.1\Teken.deps.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\bin\Debug\netcoreapp3.1\Teken.runtimeconfig.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\bin\Debug\netcoreapp3.1\Teken.runtimeconfig.dev.json
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\bin\Debug\netcoreapp3.1\Teken.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\bin\Debug\netcoreapp3.1\Teken.pdb
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\obj\Debug\netcoreapp3.1\Teken.csprojAssemblyReference.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\obj\Debug\netcoreapp3.1\Teken.AssemblyInfoInputs.cache
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\obj\Debug\netcoreapp3.1\Teken.AssemblyInfo.cs
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\obj\Debug\netcoreapp3.1\Teken.dll
+D:\code\git\jaar3-ad-huiswerk\Huiswerk\Exam\Tentamen\Teken\obj\Debug\netcoreapp3.1\Teken.pdb

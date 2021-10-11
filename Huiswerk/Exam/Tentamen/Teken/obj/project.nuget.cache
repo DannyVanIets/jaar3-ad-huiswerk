@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0seUZ76SFJLEzto9r5cKUAfavjzJai/YFwhtReeu/0S8A7wjU5xjQ5BsxisG+7Yt/XJD436fBMSTTdRF8jpJXw==",
+  "success": true,
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\Tentamen\\Teken\\Teken.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

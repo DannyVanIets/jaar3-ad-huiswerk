@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0p7o0eDa1JV+3AITDDNsdeWNmYwT8tDSjspBIxWK7Oorc7SFTEn1yjyhDn4+VSSpW4UkmZWk8qsIW65WEVEtTQ==",
+  "success": true,
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\Tentamen\\SortedLinkedList\\SortedLinkedList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

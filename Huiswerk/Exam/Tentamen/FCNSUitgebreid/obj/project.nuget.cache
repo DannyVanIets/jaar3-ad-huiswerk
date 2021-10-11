@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K8nthVOvz5OPbDkH5ZKloJ3orI6dxCnxk+F77xqcWDdaM1QqVkqw7NiDqPyIU7TQiDd0vT//MjOKDDJM4sqk5Q==",
+  "success": true,
+  "projectFilePath": "D:\\code\\git\\jaar3-ad-huiswerk\\Huiswerk\\Exam\\Tentamen\\FCNSUitgebreid\\FCNSUitgebreid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
